@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --main-color:#326c63;
+   --black:rgb(0, 0, 0);
+   --darkblue:rgb(1, 0, 40);
+   --darkgreen:rgb(2, 44, 25);
+   --darkk:rgb(3, 38, 29);
+   --lightgreen:rgb(103, 181, 140);
+
+   --white:#fff;
+   --light-black:rgb(44, 44, 44);
+   --light-blue:rgba(0, 0, 0, 0.9);
+   --light-bb:rgb(17, 118, 129);
+   --light-white:#fff9;
+   --dark-bg:rgb(0, 0, 0)
+   --light-bg:#eee;
+   --light-button:rgb(30, 67, 50);
+   --border:.1rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+}
+
+
+
+h4,p,h5{
+color: #9BA49E;
+}
+
+h5{
+color:  rgb(10, 76, 46);
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(136deg, rgb(11, 36, 19) 0%, rgb(210, 210, 210) 100%);
+  }
+
+
+.navigation {
+    z-index: 1000;
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+.navbar-brand {
+    color: rgb(26, 109, 71)
+ !important;
+    font-size: 2rem;
+}
+
+
+ .navbar-nav .nav-link {
+    color: #9BA49E;
+    font-weight: 600;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+
+/* banner */
+.banner, .my-works, .pricing, .testimonials,.what-i-do , .Me,.card,.my-contacts,.card-body {
+    background: linear-gradient(136deg, rgb(0, 0, 0) 0%, rgb(0, 33, 16) 100%);
+  }
+}
+
+
+h6{
+
+color:     #FFFFFF;
+
+
+}
+
+
+
+
+
+.col-md-6 h1{
+    color: #9BA49E;
+
+}
+
+.word {
+        color:     #000000;
+        font-size: 40px;
+      }
+    .word:before {
+        color: rgb(35, 68, 83);
+        content: "Hi,";
+         font-size: 40px;
+
+      }
+.col-md-6 p{
+    color: #9BA49E;
+
+}
+
+.my-clients .card, .my-contacts .card{
+    background-color: #84AA7F;
+    border: none;
+}
+.my-contacts a{
+    text-decoration: none;
+}
+.what-i-do h4{
+    color:rgb(184, 184, 184);
+    font-weight: 600;
+}
+
+.what-i-do,.my-works,.Me ,.pricing ,.testimonials,.my-contacts h1{
+    color: rgb(195, 195, 195);
+    font-weight: 600;
+}
+
+.icon {
+     color: rgb(182, 182, 182);
+}
+
+.icon1{
+
+color: rgb(196, 196, 196);
+}
+
+
+
+.testimonials img{
+    border-radius: 3rem;
+}
+.testimonials span{
+    font-style: italic;
+}
+
+.my-clients .card, .my-contacts .card{
+    background-color: #eae7dc;
+    border: none;
+}
+.my-contacts a{
+    text-decoration: none;
+}
+
+
+
+
+/* buttons */
+.btn{
+    display: inline-block;
+    background: linear-gradient(136deg,  rgb(31, 35, 35) 15%,rgb(33, 87, 67) 100%);
+    margin-top: 1rem;
+    color:var(--white);
+    font-size: 0.85rem;
+    padding:1rem 3rem;
+    cursor: pointer;
+    
+ }
+ 
+ .btn:hover{
+    background: var(--main-color);
+ }
+
+.footer{
+    background: linear-gradient(136deg, rgb(152, 152, 152) 0%, rgb(1, 35, 23) 100%);
+
+
+    }
+
+
